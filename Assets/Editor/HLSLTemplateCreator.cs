@@ -5,7 +5,7 @@ public class HLSLTemplateCreator
 {
     private static string PostProcessingTemplatePath = "Assets/Templates/HLSLPostProcessingTemplate.txt";
 
-    [MenuItem("Assets/Create/New PostProcessing Shader")]
+    [MenuItem("Assets/Create/Shader/New PostProcessing Shader")]
     private static void CreatePostProcessingHLSLTemplate()
     {
         var path = AssetDatabase.GetAssetPath(Selection.activeObject);
